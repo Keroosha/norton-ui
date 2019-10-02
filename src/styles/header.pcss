@@ -1,0 +1,34 @@
+.norton-header-menu {
+  display: flex;
+  flex-direction: row;
+  font-size: 2rem;
+  color: var(--norton-white);
+}
+
+.norton-header-menu-item-wrapper {
+}
+
+.norton-header-menu-item {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  text-decoration: none;
+}
+
+/* prevent to be recolored */
+a.norton-header-menu-item:visited {
+  color: var(--norton-white);
+}
+
+a.norton-header-menu-item:hover {
+  background-color: var(--norton-dark);
+}
+
+.norton-header-menu-item::first-letter {
+  color: var(--norton-yellow);
+}
+
+.norton-header-container {
+  display: flex;
+  background-color: var(--norton-bg-secondary);
+  width: 100%;
+}

@@ -1,20 +1,13 @@
-:root {
-  --norton-bg: #0000AA;
-  --norton-bg-secondary: #02ABA8;
-  --norton-main: #57FFFF;
-  --norton-error: #AA0000;
-  /* secondary colors */
-  --norton-dark: #050505;
-  --norton-gray: #A8A8A8;
-  --norton-white: #FFFFFF;
-  --norton-yellow: #F8F859;
-}
+@import "./reset.css";
+@import "./colors.pcss";
+@import "./header.pcss";
+@import "./app-window.pcss";
+@import "./footer.pcss";
 
 html {
   height: 100%;
   font-family: "Perfect DOS VGA 437 Win", monospace;
 }
-
 
 body {
   height: 100%;
@@ -22,6 +15,7 @@ body {
 
 .norton-main-container {
   display: flex;
+  flex-direction: column;
   width: 100%;
   background-color: var(--norton-bg);
   height: 100%;

@@ -1,0 +1,29 @@
+{
+  "name": "norton-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "prettier": "1.18.2",
+    "parcel-bundler": "1.12.3",
+    "postcss": "7.0.18",
+    "autoprefixer": "9.6.1",
+    "postcss-font-magician": "2.2.2",
+    "postcss-css-variables": "0.13.0"
+  },
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Keroosha/norton-ui.git"
+  },
+  "author": "Keroosha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Keroosha/norton-ui/issues"
+  },
+  "homepage": "https://github.com/Keroosha/norton-ui#readme"
+}

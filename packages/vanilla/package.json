@@ -1,0 +1,19 @@
+{
+  "name": "@norton-ui/vanilla",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Keroosha",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "parcel-bundler": "1.12.3",
+    "postcss": "7.0.18",
+    "autoprefixer": "9.6.1",
+    "postcss-font-magician": "2.2.2",
+    "postcss-custom-properties": "9.0.2"
+  },
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  }
+}

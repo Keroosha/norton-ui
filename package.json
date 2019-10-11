@@ -1,20 +1,16 @@
 {
   "name": "norton-ui",
+  "private": true,
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
-    "prettier": "1.18.2",
-    "parcel-bundler": "1.12.3",
-    "postcss": "7.0.18",
-    "autoprefixer": "9.6.1",
-    "postcss-font-magician": "2.2.2",
-    "postcss-custom-properties": "9.0.2"
+    "prettier": "1.18.2"
   },
   "scripts": {
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
